@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-lab04",
+  "version": "1.0.0",
+  "description": "AF Lab 04",
+  "homepage": "https://github.com/Kajana01/nodejs-lab04#readme",
+  "bugs": {
+    "url": "https://github.com/Kajana01/nodejs-lab04/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kajana01/nodejs-lab04.git"
+  },
+  "license": "ISC",
+  "author": "Kajana",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
