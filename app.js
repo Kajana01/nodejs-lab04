@@ -1,6 +1,10 @@
-const fs = require('fs');
+async function myFunction() {
+    try {
+        const result = await Promise.resolve('Success!');
+        console.log(result);
+    } catch (error) {
+        console.log(error);
+    }
+}
 
-fs.writeFile('file.txt', 'Hello World!', function (err) {
-    if (err) throw err;
-    console.log('File saved!');
-});
+myFunction();
